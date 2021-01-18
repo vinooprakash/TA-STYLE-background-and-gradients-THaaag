@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styling */
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1D2029;
+}
+
+h1, body, p, a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  flex: 0 1 23%;
+}
+
+.box {
+  width: 100%;
+  height: 200px;
+  background-color: #252B43;
+  text-align: center;
+  border-radius: 6px;
+  display: table;
+  vertical-align: middle;
+  padding: 30px 0;
+}
+
+.box-para {
+  color: #969cb6;
+  font-size: 11px;
+  letter-spacing: 6px;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.overview-box {
+  width: 100%;
+  height: 130px;
+  background-color: #252B43;
+  text-align: center;
+  border-radius: 6px;
+  display: table;
+  vertical-align: middle;
+  padding: 30px 30px;
+}
+
+.row1 {
+  margin-bottom: 20px;
+}
+
+.obox-num {
+  font-size: 28px;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: 700;
+  color: #969cb6;
+}
+
+h1, h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.username {
+  color: #969cb6;
+  margin-left: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fab, .fas {
+  margin-bottom: 10px;
+}
+
+.fa-caret-up {
+  color: lightseagreen;
+  font-weight: 900;
+}
+
+.count {
+  color: lightseagreen;
+  font-size: 12px;
+  font-weight: 900;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+}
+
+.fa-facebook-square {
+  color: #1890F6;
+}
+
+.fa-twitter-square {
+  color: #18A2F6;
+}
+
+.fa-instagram {
+  color: #bc2a8d;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+/* Header */
+
+.header {
+ margin: 30px 0; 
+}
+
+.header-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #969cb6;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: #969cb6;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.toggle i {
+  color: lightseagreen;
+  font-size: 24px;
+}
+
+/* Totals */
+
+/* Box 1 */
+
+.box1 {
+  border-top: 3px solid #198FF5;
+}
+
+
+/* Box 2 */
+
+.box2 {
+  border-top: 3px solid #1890F6;
+}
+
+/* Box 3 */
+
+.box3 {
+  border-top: 3px solid rgb(199, 51, 76);
+}
+
+/* Box 4 */ 
+
+.fa-caret-down {
+  color: #AB3E50;
+}
+
+.down-count {
+  color: #AB3E50;
+  font-size: 12px;
+  font-weight: 900;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+}
+
+.box4 {
+  border-top: 3px solid red;
+}
+
+/* Overview */
+
+.overview {
+  margin: 60px 0 30px 0;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+
+/* Section Two */
+
+.section2 {
+  margin-top: 30px;
+}
